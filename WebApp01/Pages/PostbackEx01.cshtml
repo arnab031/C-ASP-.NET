@@ -1,0 +1,16 @@
+﻿@page
+@model WebApp01.Pages.PostbackEx01Model
+@{
+}
+
+<h1>Postback Ex-01</h1>
+<form method="post">
+    <button name="b1" value="hello">Say Hello</button> |
+    <button name="b1" value="date">Date</button> |
+    <button name="b1" value="time">Time</button></br>
+</form>
+<br/>
+@ViewBag.Message
+<br/>
+Goto:
+<a asp-page="/postbackdemo">Back to Post Back Index</a>

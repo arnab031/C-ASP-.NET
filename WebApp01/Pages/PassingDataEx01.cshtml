@@ -1,0 +1,28 @@
+﻿@page
+@model WebApp01.Pages.PassingDataEx01Model
+@{
+    string[] cakes = ViewBag.cakes;
+    List<string> sweets = ViewBag.sweets;
+}
+
+<h1>Passing Data, Ex-01</h1>
+
+<h2>List of cakes</h2>
+<ol>
+    @foreach(string cake in cakes)
+            {
+                <li>@cake</li>
+            }
+</ol>
+Count of cakes: @cakes.Length
+<br/>
+<h2>List of Sweets</h2>
+<ul>
+    @foreach(string sweet in sweets)
+            {
+                <li>@sweet</li>
+            }
+</ul>
+
+Goto:
+<a asp-page="/passingdatademo">back to passing data index</a>

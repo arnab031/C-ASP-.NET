@@ -1,0 +1,21 @@
+﻿@page
+@{
+    int a = 5;
+    int b = 6;
+
+    string fullName = "Arnab Bhakta";
+
+}
+
+<h1>Razor Example-01</h1>
+
+Add of @a and @b is @(a+b)
+<br />
+First Name: @fullName.Substring(0, fullName.IndexOf(' '))
+<br />
+Last Name: @fullName.Substring(fullName.LastIndexOf(' ')+1)
+<br />
+
+Goto: <a asp-page="aboutrazor">Back to About Razor</a>
+
+

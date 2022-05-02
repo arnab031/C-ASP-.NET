@@ -1,0 +1,27 @@
+﻿@page
+@{
+
+    string[] fruits = new string[] { "Apple", "Banana", "Cherry", "Grapes", "Mango" };
+    List<String> vegetables = new List<string> { "Onion", "Potato", "Tomato", "Brinjal" };
+
+}
+<h1>Razor Ex-02 </h1>
+
+<h2>List of fruits</h2>
+<ol>
+    @for(int i = 0; i < fruits.Length; i++)
+            {
+                <li>@fruits[i]</li>
+            }
+</ol>
+
+<h2>List of Vegetables</h2>
+<ul>
+    @foreach(string v in vegetables)
+            {
+                <li>@v</li>
+            }
+</ul>
+<br/>
+Goto:
+<a asp-page="aboutrazor">Back to razor index</a>

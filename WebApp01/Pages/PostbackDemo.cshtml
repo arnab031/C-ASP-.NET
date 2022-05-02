@@ -1,0 +1,19 @@
+﻿@page
+@model WebApp01.Pages.PostbackDemoModel
+@{
+}
+
+<h1>Postback Demo</h1>
+
+<p>Postback refers to submit client request to server </p>
+<form method="post">
+    <button>Say Hello</button>
+</form>
+
+<br />
+@ViewBag.Message</br>
+
+Goto:
+<a asp-page="postbackex01">Ex-01</a>|
+<a asp-page="postbackex02">Ex-02</a>|
+<a asp-page="postbackex03">Ex-03</a>|

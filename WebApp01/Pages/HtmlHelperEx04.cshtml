@@ -1,0 +1,22 @@
+﻿@page
+@model WebApp01.Pages.HtmlHelperEx04Model
+@{
+}
+
+<h1>Html Helper Demo, Ex-04</h1>
+
+@using (Html.BeginForm())
+{
+    <input type="submit" />
+    <br />
+}
+
+@ViewBag.Message
+<br />
+
+Goto:
+<a asp-page="/htmlhelperex01">Ex-01</a> |
+<a asp-page="/htmlhelperex02">Ex-02</a> |
+<a asp-page="/htmlhelperex03">Ex-03</a> |
+<a asp-page="/htmlhelperex05">Ex-05</a> |
+<a asp-page="/htmlhelperdemo">Index</a> |

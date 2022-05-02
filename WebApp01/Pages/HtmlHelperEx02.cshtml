@@ -1,0 +1,29 @@
+﻿@page
+@model WebApp01.Pages.HtmlHelperEx02Model
+@{
+}
+
+<h1>Html Helper Demo, Ex-02</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.Label("t1", "Enter Name: ");
+    @Html.TextBox("t1");
+    <br />
+
+    <button name="b1" value="hello">Say Hello</button>
+    <button name="b1" value="length">Length</button>
+    <button name="b1" value="upper">Upper</button>
+    <button name="b1" value="lower">Lower</button>
+    <br />
+}
+
+@ViewBag.Message
+<br />
+
+Goto:
+<a asp-page="/htmlhelperex01">Ex-01</a> |
+<a asp-page="/htmlhelperex03">Ex-03</a> |
+<a asp-page="/htmlhelperex04">Ex-04</a> |
+<a asp-page="/htmlhelperex05">Ex-05</a> |
+<a asp-page="/htmlhelperdemo">Index</a> |

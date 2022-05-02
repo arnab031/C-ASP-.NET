@@ -1,0 +1,32 @@
+﻿@page
+@{
+}
+
+<h1>About Razor</h1>
+<p>
+    Razor page is a programmable view engine
+    <br />Razor can be implemented in two ways
+</p>
+
+a)Single line Razor
+<br />
+b)Multi line Razor(Code block)
+<br />
+<br/>
+
+@*Single Line Razor example*@
+Date: @DateTime.Now.ToLongDateString()
+<br />
+Time: @DateTime.Now.ToLongTimeString()
+<br />
+
+@*Multi Line Razor example*@
+@{
+    string name = "Arnab";
+    string job = "Developer";
+}
+Name: @name
+<br />
+Job: @job
+<br />
+Goto: <a asp-page="razorex01">Ex-01</a> | <a asp-page="razorex02">Ex-02</a>

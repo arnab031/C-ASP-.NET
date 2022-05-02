@@ -1,0 +1,30 @@
+﻿@page
+@model WebApp01.Pages.HtmlHelperDemoModel
+@{
+}
+
+<h1>HTML Hepler Demo</h1>
+<pre>
+    Html Helper:
+    These are the built in classes, used in .NET to generate html tags programatically.
+Advantages:
+    Simplify the thing with default values
+    Maintain state of the data
+    Bind data from application logic to presentation logic, etc.
+
+Note: HTML helpers are programmable using razor view engine 
+</pre>
+
+@using (Html.BeginForm())
+{
+    <input type="submit" />
+    <br />
+}
+@ViewBag.Message <br/>
+
+Goto:
+<a asp-page="/htmlhelperex01">Ex-01</a> |
+<a asp-page="/htmlhelperex02">Ex-02</a> |
+<a asp-page="/htmlhelperex03">Ex-03</a> |
+<a asp-page="/htmlhelperex04">Ex-04</a> |
+<a asp-page="/htmlhelperex05">Ex-05</a> |
