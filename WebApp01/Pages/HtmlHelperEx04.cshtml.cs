@@ -13,9 +13,28 @@ namespace WebApp01.Pages
         {
             ViewData["Message"] = string.Empty;
         }
-        public void OnPost()
+        public void OnPost(int a,int b,string b1)
         {
-            ViewData["Message"] = "Hello";
+            string msg = string.Empty;
+            int c = 0;
+            switch (b1)
+            {
+                case "add":
+                    c = a + b;
+                    break;
+                case "sub":
+                    c = a - b;
+                    break;
+                case "big":
+                    c = (a > b) ? a : b;
+                    break;
+                case "small":
+                    c = (a < b) ? a : b;
+                    break;
+            }
+            ViewData["Message"] = $"{b1} of {a} and {b} is {c}";
         }
+           
+        
     }
 }

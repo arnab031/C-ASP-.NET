@@ -7,7 +7,9 @@
 
 @using (Html.BeginForm())
 {
-    <input type="submit" />
+    @Html.Label("t1", "Enter Number: ");
+    @Html.TextBox("t1", "", new { type = "number" }); <br/>
+    <button>Square</button>
     <br />
 }
 

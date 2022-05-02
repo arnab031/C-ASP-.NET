@@ -13,9 +13,9 @@ namespace WebApp01.Pages
         {
             ViewData["Message"] = string.Empty;
         }
-        public void OnPost()
+        public void OnPost(int t1)
         {
-            ViewData["Message"] = "Hello";
+            ViewData["Message"] = $"Square of {t1} is {t1*t1}";
         }
     }
 }

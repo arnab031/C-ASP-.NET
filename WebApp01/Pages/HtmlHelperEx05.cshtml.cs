@@ -13,9 +13,9 @@ namespace WebApp01.Pages
         {
             ViewData["Message"] = string.Empty;
         }
-        public void OnPost()
+        public void OnPost(string t1,string gender)
         {
-            ViewData["Message"] = "Hello";
+            ViewData["Message"] = $"Hello {gender} {t1}";
         }
     }
 }

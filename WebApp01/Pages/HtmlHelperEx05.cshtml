@@ -7,7 +7,20 @@
 
 @using (Html.BeginForm())
 {
-    <input type="submit" />
+    @Html.Label("t1", "Enter Name: ");
+    @Html.TextBox("t1");
+    <br />
+    @Html.Label("gen", "Choose Gender: ");
+
+
+    @Html.RadioButton("gender", "Mr.");
+    @Html.Label("gender", "Male");
+    @Html.RadioButton("gender", "Mrs.");
+    @Html.Label("gender", "Female");
+
+    <br />
+
+    <button>Submit</button>
     <br />
 }
 
