@@ -1,0 +1,73 @@
+﻿@page
+@model WebApp01.Pages.HtmlHelperEx08Model
+@{
+}
+
+<h1>HTML Helper, Ex-08</h1>
+<h2>Objective Question Paper</h2>
+@using (Html.BeginForm())
+{
+    @Html.Label("q1", "Who is the president of India?");
+    <br />
+    @Html.RadioButton("q1a1", "Modi");
+    @Html.Label("", "Modi");
+    @Html.RadioButton("q1a1", "Ramnath");
+    @Html.Label("", "Ramnath");
+    @Html.RadioButton("q1a1", "Rahul");
+    @Html.Label("", "Rahul Gandhi");
+    @Html.RadioButton("q1a1", "Sonia");
+    @Html.Label("", "Sonia Gandhi");
+    <br />
+
+
+    @Html.Label("q2", "Who is the president of USA?");
+    <br />
+    @Html.RadioButton("q2a1", "Joe Biden");
+    @Html.Label("", "Joe Biden");
+    @Html.RadioButton("q2a1", "Ramnath");
+    @Html.Label("", "Ramnath");
+    @Html.RadioButton("q2a1", "Rahul");
+    @Html.Label("", "Rahul Gandhi");
+    @Html.RadioButton("q2a1", "Sonia");
+    @Html.Label("", "Sonia Gandhi");
+    <br />
+
+    @Html.Label("q3", "Who is the president of UK?");
+    <br />
+    @Html.RadioButton("q3a1", "Boris Johnson");
+    @Html.Label("", "Boris Johnson");
+    @Html.RadioButton("q3a1", "Ramnath");
+    @Html.Label("", "Ramnath");
+    @Html.RadioButton("q3a1", "Rahul");
+    @Html.Label("", "Rahul Gandhi");
+    @Html.RadioButton("q3a1", "Sonia");
+    @Html.Label("", "Sonia Gandhi");
+    <br />
+
+    @Html.Label("q4", "Who is the president of Ukraine?");
+    <br />
+    @Html.RadioButton("q4a1", "Volodymyr Zelenskyy");
+    @Html.Label("", "Volodymyr Zelenskyy");
+    @Html.RadioButton("q4a1", "Ramnath");
+    @Html.Label("", "Ramnath");
+    @Html.RadioButton("q4a1", "Rahul");
+    @Html.Label("", "Rahul Gandhi");
+    @Html.RadioButton("q4a1", "Sonia");
+    @Html.Label("", "Sonia Gandhi");
+    <br />
+
+    <button>Say Hello</button>
+}
+
+@ViewBag.Message
+<br />
+
+Goto:
+<a asp-page="/htmlhelperex01">Ex-01</a> |
+<a asp-page="/htmlhelperex02">Ex-02</a> |
+<a asp-page="/htmlhelperex03">Ex-03</a> |
+<a asp-page="/htmlhelperex04">Ex-04</a> |
+<a asp-page="/htmlhelperex05">Ex-05</a> |
+<a asp-page="/htmlhelperex06">Ex-06</a> |
+<a asp-page="/htmlhelperex07">Ex-07</a> |
+<a asp-page="/htmlhelperdemo">Index</a> |

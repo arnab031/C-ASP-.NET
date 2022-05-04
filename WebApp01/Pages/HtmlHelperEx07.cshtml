@@ -1,0 +1,56 @@
+﻿@page
+@model WebApp01.Pages.HtmlHelperEx07Model
+@{
+
+    int tot = ViewBag.tot;
+    double avg = ViewBag.avg;
+    string result = ViewBag.result;
+    string grade = ViewBag.grade;
+}
+
+<h1>HTML Helper, Ex-07</h1>
+<h2>Marks List Task</h2>
+@using (Html.BeginForm())
+{
+<table border="1">
+    <tr>
+        <td>@Html.Label("m", "Maths")</td>
+        <td>@Html.TextBox("m", "", new { type = "number" })</td>
+        <td>@Html.Label("tot", "Total Marks")</td>
+        <td>@Html.TextBox("tot", @tot)</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("p", "Physics")</td>
+        <td>@Html.TextBox("p", "", new { type = "number" })</td>
+        <td>@Html.Label("avg", "Avg Marks")</td>
+        <td>@Html.TextBox("avg", @avg)</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("c", "Chemistry")</td>
+        <td>@Html.TextBox("c", "", new { type = "number" })</td>
+        <td>@Html.Label("result", "Result")</td>
+        <td>@Html.TextBox("result", result)</td>
+    </tr>
+    <tr>
+        <td colspan="2"><button>Submit</button></td>
+        
+        <td>@Html.Label("grade", "Grade")</td>
+        <td>@Html.TextBox("grade", @grade)</td>
+    </tr>
+</table>
+
+
+    <br />
+
+}
+
+<br />
+
+Goto:
+<a asp-page="/htmlhelperex01">Ex-01</a> |
+<a asp-page="/htmlhelperex02">Ex-02</a> |
+<a asp-page="/htmlhelperex03">Ex-03</a> |
+<a asp-page="/htmlhelperex04">Ex-04</a> |
+<a asp-page="/htmlhelperex05">Ex-05</a> |
+<a asp-page="/htmlhelperex06">Ex-06</a> |
+<a asp-page="/htmlhelperdemo">Index</a> |
