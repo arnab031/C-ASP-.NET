@@ -1,0 +1,33 @@
+﻿@page
+@model WebApp01.Pages.HtmlHelperEx09Model
+@{}
+<h1>HTML Helper, Ex-09</h1>
+<h2>Dropdown list demo</h2>
+@using (Html.BeginForm())
+{
+    @Html.DropDownList("language", new List<SelectListItem>
+{
+   new SelectListItem(){Text="Choose Language",Value="-1",Selected=true},
+   new SelectListItem(){Text="English",Value="English"},
+   new SelectListItem(){Text="Hindi",Value="Hindi"},
+   new SelectListItem(){Text="Telugu",Value="Telegu"},
+   new SelectListItem(){Text="Tamil",Value="Tamil"}
+})
+    <button>Say Hello</button>
+    <br />
+}
+
+@ViewBag.Message
+<br />
+
+Goto:
+<a asp-page="/htmlhelperex01">Ex-01</a> |
+<a asp-page="/htmlhelperex02">Ex-02</a> |
+<a asp-page="/htmlhelperex03">Ex-03</a> |
+<a asp-page="/htmlhelperex04">Ex-04</a> |
+<a asp-page="/htmlhelperex05">Ex-05</a> |
+<a asp-page="/htmlhelperex06">Ex-06</a> |
+<a asp-page="/htmlhelperex07">Ex-07</a> |
+<a asp-page="/htmlhelperex08">Ex-08</a> |
+<a asp-page="/htmlhelperdemo">Index</a> |
+
