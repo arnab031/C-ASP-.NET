@@ -1,0 +1,20 @@
+﻿@page
+@model WebApp01.Pages.AdoDemoModel
+@{}
+
+<h1>ADO.NET</h1>
+<p>It is an API contains classes, used to interact with databases like Sql Server, Orcale, etc..</p>
+
+@using (Html.BeginForm())
+{
+    <button>Connect to Sql</button>
+}
+
+@ViewBag.Message
+<br />
+
+Goto:
+<a asp-page="/adoex01">Ex-01</a> |
+<a asp-page="/adoex02">Ex-02</a> |
+<a asp-page="/adoex03">Ex-03</a> |
+<a asp-page="/adoex04">Ex-04</a> |

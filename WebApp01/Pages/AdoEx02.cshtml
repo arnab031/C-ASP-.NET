@@ -1,0 +1,47 @@
+﻿@page
+@model WebApp01.Pages.AdoEx02Model
+@{
+    List<EmpModel> list = ViewBag.Employees;
+}
+<h1>ADO.NET, Ex-02</h1>
+@using (Html.BeginForm())
+{
+    <button>Submit</button>
+    <br />
+}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                EName
+            </th>
+            <th>
+                Job
+            </th>
+            <th>
+                Salary
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(EmpModel e in list)
+            {
+                <tr>
+                    <td>@e.Id</td>
+                    <td>@e.EName</td>
+                    <td>@e.Job</td>
+                    <td>@e.Salary</td>
+                </tr>
+            }
+    </tbody>
+</table>
+
+Goto:
+<a asp-page="/adodemo">Index</a> |
+<a asp-page="/adoex01">Ex-01</a> |
+<a asp-page="/adoex03">Ex-03</a> |
+<a asp-page="/adoex04">Ex-04</a> |
+<a asp-page="/adoex05">Ex-05</a>

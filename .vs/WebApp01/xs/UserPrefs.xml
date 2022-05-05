@@ -1,4 +1,11 @@
 ﻿<Properties StartupConfiguration="{1EAFB390-96C5-41A9-9438-B96EA4A7D415}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebApp01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
@@ -6,11 +13,7 @@
           <Node name="WebApp01" expanded="True">
             <Node name="WebApp01" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="HtmlHelperEx01.cshtml" expanded="True" />
-                <Node name="HtmlHelperEx02.cshtml" expanded="True" />
-                <Node name="HtmlHelperEx03.cshtml" expanded="True" />
-                <Node name="HtmlHelperEx04.cshtml" expanded="True" />
-                <Node name="HtmlHelperEx05.cshtml" expanded="True" />
+                <Node name="HtmlHelperEx09.cshtml" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -21,11 +24,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WebApp01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

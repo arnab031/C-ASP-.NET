@@ -1,0 +1,22 @@
+﻿@page
+@model WebApp01.Pages.AdoEx01Model
+@{}
+<h1>ADO.NET, Ex-01</h1>
+@using (Html.BeginForm())
+{
+    @Html.Label("id", "Enter ID: ");
+    @Html.TextBox("id");<br/>
+    <button>Submit</button>
+    <br />
+}
+EName: @ViewBag.ename<br/>
+Job: @ViewBag.job<br/>
+Salary: @ViewBag.salary<br/>
+
+
+Goto:
+<a asp-page="/adodemo">Index</a> |
+<a asp-page="/adoex02">Ex-02</a> |
+<a asp-page="/adoex03">Ex-03</a> |
+<a asp-page="/adoex04">Ex-04</a> |
+<a asp-page="/adoex05">Ex-05</a>
