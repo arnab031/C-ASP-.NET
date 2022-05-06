@@ -1,14 +1,36 @@
 ﻿@page
 @model WebApp01.Pages.AdoEx04Model
 @{
+    string ename = ViewBag.ename;
+    string job = ViewBag.job;
+    int salary = Convert.ToInt32(ViewBag.salary);
 }
 <h1>ADO.NET, Ex-04</h1>
+<p>Edit Demo on Employee row</p>
 @using (Html.BeginForm())
 {
-    <button>Submit</button>
+    @Html.Label("id", "Enter id: ");
+    @Html.TextBox("id");
+    @*<button name="b1" value="search">Search</button>*@
+    <br />
+
+    @Html.Label("ename", "Employee Name: ");
+    @Html.TextBox("ename");
+    <br />
+
+    @Html.Label("job", "Employee Job: ");
+    @Html.TextBox("job");
+    <br />
+
+    @Html.Label("salary", "Employee Salary: ");
+    @Html.TextBox("salary");
+    @*<button name="b1" value="edit">Edit</button>*@
+    <button>Edit</button><br/>
     <br />
 }
 
+@ViewBag.Message
+<br />
 Goto:
 <a asp-page="/adodemo">Index</a> |
 <a asp-page="/adoex01">Ex-01</a> |

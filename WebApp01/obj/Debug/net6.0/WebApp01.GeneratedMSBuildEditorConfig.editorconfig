@@ -47,8 +47,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRvRXgwNS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/arnabbhakta/Projects/WebApp01/WebApp01/Pages/AdoEx06.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRvRXgwNi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/arnabbhakta/Projects/WebApp01/WebApp01/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arnabbhakta/Projects/WebApp01/WebApp01/Pages/EmployeeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/arnabbhakta/Projects/WebApp01/WebApp01/Pages/Error.cshtml]
@@ -133,6 +141,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/arnabbhakta/Projects/WebApp01/WebApp01/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arnabbhakta/Projects/WebApp01/WebApp01/Pages/StudentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGVudERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/arnabbhakta/Projects/WebApp01/WebApp01/Pages/_ViewImports.cshtml]

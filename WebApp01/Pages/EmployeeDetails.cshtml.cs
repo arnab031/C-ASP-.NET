@@ -8,27 +8,33 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WebApp01.Pages
 {
-	public class AdoEx05Model : PageModel
+	public class EmployeeDetailsModel : PageModel
     {
         public void OnGet()
         {
-        }
-        public void OnPost(int id)
-        {
+            
             string cs = "server=localhost;Database=EmployeeDB;User=sa;Password=Arnab@123";
             try
             {
                 SqlConnection cn = new SqlConnection(cs);
                 cn.Open();
-                string query = String.Empty;
-
-                query = "delete tblEmployees where id=@id";
+                string query = "select * from tblEmployees";
                 SqlCommand cmd = new SqlCommand(query, cn);
-                cmd.Parameters.AddWithValue("@id", id);
-                
-                cmd.ExecuteNonQuery();
-                ViewData["Message"] = "Row deleted successfully...";
+                SqlDataReader dr = cmd.ExecuteReader();
+                List<EmpModel> list = new List<EmpModel>();
+                while (dr.Read())
+                {
+                    EmpModel emp = new EmpModel();
+                    emp.Id = Convert.ToInt32(dr[0]);
+                    emp.EName = dr[1].ToString();
+                    emp.Job = dr[2].ToString();
+                    emp.Salary = Convert.ToInt32(dr[3]);
+                    list.Add(emp);
 
+                }
+                ViewData["Employees"] = list;
+                cn.Dispose();
+                dr.Close();
             }
             catch (SqlException ex)
             {
@@ -38,6 +44,11 @@ namespace WebApp01.Pages
             {
                 ViewData["Message"] = "Error " + ex.Message;
             }
+            
+        }
+        public void OnPost()
+        {
+            
         }
     }
 }

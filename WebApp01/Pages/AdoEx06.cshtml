@@ -1,0 +1,22 @@
+﻿@page
+@model WebApp01.Pages.AdoEx06Model
+@{}
+<h2>Fetch Employees Data || Fetch Students Data</h2>
+
+@using (Html.BeginForm())
+{
+    <button name="b1" value="employee">Fetch Employees Records</button>
+    <br />
+    <br/>
+    <button name="b1" value="student">Fetch Students Records</button>
+}
+
+@*@ViewBag.Message*@
+
+Goto:
+<a asp-page="/adodemo">Index</a> |
+<a asp-page="/adoex01">Ex-01</a> |
+<a asp-page="/adoex02">Ex-02</a> |
+<a asp-page="/adoex03">Ex-03</a> |
+<a asp-page="/adoex04">Ex-04</a> |
+<a asp-page="/adoex05">Ex-05</a> |

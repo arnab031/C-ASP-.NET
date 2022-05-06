@@ -1,0 +1,44 @@
+﻿@page
+@model WebApp01.Pages.StudentDetailsModel
+@{
+    List<StudentModel> list = ViewBag.Students;
+}
+<h1>All Students</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>
+                SName
+            </td>
+            <td>
+                Age
+            </td>
+            <td>
+                Course
+            </td>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (StudentModel s in list)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.SName</td>
+                <td>@s.age</td>
+                <td>@s.course</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+Goto:
+<a asp-page="/adodemo">Index</a> |
+<a asp-page="/adoex01">Ex-01</a> |
+<a asp-page="/adoex02">Ex-02</a> |
+<a asp-page="/adoex03">Ex-03</a> |
+<a asp-page="/adoex04">Ex-04</a> |
+<a asp-page="/adoex05">Ex-05</a> |
+<a asp-page="/adoex06">Ex-06</a> |
