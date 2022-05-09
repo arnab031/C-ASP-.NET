@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arnabbhakta/Projects/WebApp01/WebApp01/WebApp01.csproj": {}
+    "/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/WebApp01.csproj": {}
   },
   "projects": {
-    "/Users/arnabbhakta/Projects/WebApp01/WebApp01/WebApp01.csproj": {
+    "/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/WebApp01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arnabbhakta/Projects/WebApp01/WebApp01/WebApp01.csproj",
+        "projectUniqueName": "/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/WebApp01.csproj",
         "projectName": "WebApp01",
-        "projectPath": "/Users/arnabbhakta/Projects/WebApp01/WebApp01/WebApp01.csproj",
+        "projectPath": "/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/WebApp01.csproj",
         "packagesPath": "/Users/arnabbhakta/.nuget/packages/",
-        "outputPath": "/Users/arnabbhakta/Projects/WebApp01/WebApp01/obj/",
+        "outputPath": "/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arnabbhakta/.nuget/NuGet/NuGet.Config"

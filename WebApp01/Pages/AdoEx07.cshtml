@@ -1,0 +1,40 @@
+﻿@page
+@model WebApp01.Pages.AdoEx07Model
+@{
+    List<Product> list = ViewBag.Products;
+}
+<h1>AD.NET Ex-08</h1>
+<h2>CRUD Operations on database table using stored procedures</h2>
+
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>ProductName</td>
+            <td>Model</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (Product p in list)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.ProductName</td>
+                <td>@p.Model</td>
+                <td>@p.Price</td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+Goto:
+<a asp-page="/adodemo">Index</a> |
+<a asp-page="/adoex01">Ex-01</a> |
+<a asp-page="/adoex02">Ex-02</a> |
+<a asp-page="/adoex03">Ex-03</a> |
+<a asp-page="/adoex04">Ex-04</a> |
+<a asp-page="/adoex05">Ex-05</a> |
+<a asp-page="/adoex06">Ex-06</a> |
