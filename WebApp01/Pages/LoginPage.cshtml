@@ -1,0 +1,15 @@
+﻿@page
+@model WebApp01.Pages.LoginPageModel
+@{}
+<h1>Login Page</h1>
+@using (Html.BeginForm()) {
+    @Html.Label("uname", "User Name");
+    @Html.TextBox("uname");<br/>
+
+    @Html.Label("pwd", "Password");
+    @Html.TextBox("pwd", "", new {type="password"});
+
+    <br/>
+    <button>Login</button>
+}
+@ViewBag.Message

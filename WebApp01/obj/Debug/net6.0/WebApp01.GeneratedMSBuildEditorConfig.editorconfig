@@ -63,6 +63,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/EmployeeDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -113,6 +117,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/LoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/LogoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nb3V0UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/PassingDataDemo.cshtml]
