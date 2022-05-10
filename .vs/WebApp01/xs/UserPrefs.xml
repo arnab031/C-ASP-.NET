@@ -1,34 +1,13 @@
 ﻿<Properties StartupConfiguration="{1EAFB390-96C5-41A9-9438-B96EA4A7D415}|Default">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp01/Pages/StudentDetails.cshtml.cs">
-    <Files>
-      <File FileName="WebApp01/Pages/AdoEx02.cshtml.cs" Line="50" Column="14" />
-      <File FileName="WebApp01/Pages/AdoEx03.cshtml.cs" Line="33" Column="17" />
-      <File FileName="WebApp01/Pages/AdoEx03.cshtml" Line="25" Column="2" />
-      <File FileName="WebApp01/Pages/EmployeeDetails.cshtml" Line="1" Column="1" />
-      <File FileName="WebApp01/Pages/StudentDetails.cshtml" Line="1" Column="1" />
-      <File FileName="WebApp01/Pages/StudentDetails.cshtml.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebApp01" expanded="True">
-            <Node name="WebApp01" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="AdoDemo.cshtml" expanded="True" />
-                <Node name="AdoEx01.cshtml" expanded="True" />
-                <Node name="AdoEx02.cshtml" expanded="True" />
-                <Node name="AdoEx03.cshtml" expanded="True" />
-                <Node name="StudentDetails.cshtml" expanded="True">
-                  <Node name="StudentDetails.cshtml.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
+            <Node name="WebApp01" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -37,5 +16,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WebApp01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

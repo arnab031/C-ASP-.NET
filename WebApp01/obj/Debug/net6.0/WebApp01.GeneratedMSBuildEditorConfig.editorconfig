@@ -55,6 +55,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRvRXgwNy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/AdoEx08.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRvRXgwOC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -141,6 +145,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/Razorex02.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmF6b3JleDAyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/SessionDemo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2Vzc2lvbkRlbW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/SessionEx01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2Vzc2lvbkV4MDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/SessionEx02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2Vzc2lvbkV4MDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/Pages/Shared/_ValidationScriptsPartial.cshtml]

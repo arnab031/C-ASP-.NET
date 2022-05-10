@@ -1,0 +1,18 @@
+﻿@page
+@model WebApp01.Pages.SessionDemoModel
+@{}
+
+<h1>Session Demo</h1>
+
+@using (Html.BeginForm()) {
+@Html.Label("name","Enter Name: ")
+@Html.TextBox("name");<br/>
+@Html.Label("city", "Enter City: ")
+@Html.TextBox("city");<br />
+<button>Create Session</button>
+}
+
+@ViewBag.Message<br/>
+
+Goto:
+<a asp-page="/sessionex01">Read Session</a>

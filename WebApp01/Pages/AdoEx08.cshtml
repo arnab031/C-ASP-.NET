@@ -1,0 +1,42 @@
+﻿@page
+@model WebApp01.Pages.AddEx08Model
+@{
+    Product p1 = ViewBag.p1;
+}
+<h1>ADO.NET, Ex-08</h1>
+@using (Html.BeginForm())
+{
+    @Html.Label("id", "Enter Product ID");
+    @Html.TextBox("id", p1.Id, new { id="number"});
+    <button name="b1" value="search">Search</button>
+    <br />
+    @Html.Label("pname", "Product Name: ");
+    @Html.TextBox("pname", p1.ProductName);
+    <button name="b1" value="create">Add</button>
+    <br />
+    @Html.Label("model", "Product Model: ");
+    @Html.TextBox("model", p1.Model);
+    <br />
+    @Html.Label("price", "Product Price: ");
+    @Html.TextBox("price", p1.Price);
+    <br />
+}
+<hr />
+@ViewBag.Message
+
+@ViewBag.p1.Id<br/>
+@ViewBag.p1.ProductName<br/>
+@ViewBag.p1.Model<br/>
+@ViewBag.p1.Price<br/>
+
+Goto:
+<a asp-page="/adodemo">Index</a> |
+<a asp-page="/adoex01">Ex-01</a> |
+<a asp-page="/adoex02">Ex-02</a> |
+<a asp-page="/adoex03">Ex-03</a> |
+<a asp-page="/adoex04">Ex-04</a> |
+<a asp-page="/adoex05">Ex-05</a> |
+<a asp-page="/adoex06">Ex-06</a> |
+<a asp-page="/adoex07">Ex-07</a> |
+
+

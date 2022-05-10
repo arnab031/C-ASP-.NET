@@ -2,6 +2,7 @@
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSession(options => options.IdleTimeout = TimeSpan.FromSeconds(180));
 
 var app = builder.Build();
 
@@ -17,6 +18,8 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+app.UseSession();
 
 app.Run();
 
