@@ -11,10 +11,18 @@ namespace WebApp01.Pages
     {
         public void OnGet()
         {
+            string uname;
             if (HttpContext.Session.GetString("uname") != null)
             {
-                string uname = HttpContext.Session.GetString("uname");
-                ViewData["Message"] = $"Hello {uname}, Welcome to dashboard";
+                uname = HttpContext.Session.GetString("uname");
+                ViewData["Message"] = $"Hello {uname}, Welcome to dashboard state maintained using Session...";
+            }
+            else if (Request.Cookies["uname"] != null)
+            {
+                uname = Request.Cookies["uname"];
+                ViewData["Message"] = $"Hello {uname}, Welcome to dashboard state maintained using Cookies...";
+                //When session loose its state and logged using cookie, create session again
+                HttpContext.Session.SetString("uname", uname);
             }
             else
             {

@@ -10,6 +10,9 @@
     @Html.TextBox("pwd", "", new {type="password"});
 
     <br/>
+    @Html.CheckBox("cb");
+    @*<input type="checkbox" name="cb"/>*@
+    @Html.Label("cb","Remember Me")<br/>
     <button>Login</button>
 }
 @ViewBag.Message

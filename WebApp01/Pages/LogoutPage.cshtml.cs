@@ -11,8 +11,22 @@ namespace WebApp01.Pages
     {
         public void OnGet()
         {
-            HttpContext.Session.Clear();
-            ViewData["Message"] = "User logged out successfully";
+            if (HttpContext.Session.GetString("uname") != null)
+            {
+                string uname = HttpContext.Session.GetString("uname");
+                ViewData["Message"] = $"{uname} logged out successfully";
+                HttpContext.Session.Clear();
+
+                CookieOptions cookieOptions = new CookieOptions();
+                cookieOptions.Expires = DateTime.Now.AddDays(-1);
+
+                Response.Cookies.Append("uname", uname, cookieOptions);
+            }
+            else
+            {
+                ViewData["Message"] = "No session active to logout....";
+            }
+            
         }
     }
 }
