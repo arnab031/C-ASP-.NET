@@ -1,0 +1,28 @@
+﻿@page
+@model WebApp01.Pages.StudentsPageModelModel
+@{
+    List<StudentModel1> Students = ViewBag.Students;
+}
+
+<h1>List of @ViewBag.Category Students</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name of the Student</th>
+            <th>Course</th>
+            <th>Fee</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(StudentModel1 s in Students)
+            {
+                <tr>
+                    <td>@s.Id</td>
+                    <td>@s.SName</td>
+                    <td>@s.Course</td>
+                    <td>@s.Fee</td>
+                </tr>
+            }
+    </tbody>
+</table>
