@@ -39,6 +39,9 @@
 /Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/WebApp01.runtimeconfig.json
 /Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/WebApp01.dll
 /Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/WebApp01.pdb
+/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/NLog.dll
+/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/NLog.Extensions.Logging.dll
+/Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/NLog.Web.AspNetCore.dll
 /Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/System.Data.SqlClient.dll
 /Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
 /Users/arnabbhakta/Documents/C-ASP-.NET/WebApp01/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll

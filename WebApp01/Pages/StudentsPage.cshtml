@@ -3,19 +3,24 @@
 @{
     List<StudentModel1> Students = ViewBag.Students;
 }
+@using (Html.BeginForm())
+    {
+    <button name="b1" value="Java">Find All Java Students</button>
+    <button name="b1" value="Dotnet">Find All Dotnet Students</button>
+    }
 
-<h1>List of @ViewBag.Category Students</h1>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name of the Student</th>
-            <th>Course</th>
-            <th>Fee</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(StudentModel1 s in Students)
+    <h1>List of @ViewBag.Category Students</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name of the Student</th>
+                <th>Course</th>
+                <th>Fee</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (StudentModel1 s in Students)
             {
                 <tr>
                     <td>@s.Id</td>
@@ -24,5 +29,5 @@
                     <td>@s.Fee</td>
                 </tr>
             }
-    </tbody>
-</table>
+        </tbody>
+    </table>

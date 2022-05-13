@@ -1,0 +1,40 @@
+﻿@page
+@model WebApp01.Pages.EmployeesPageModel
+@{
+    List<EmpModel> list = ViewBag.Employees;
+}
+@*@using (Html.BeginForm()) {
+<button name="b1" value="HR">HR Employees</button>
+<button name="b1" value="Technical">Technical Employees</button>}*@
+<p>All Employees using DI</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                EName
+            </th>
+            <th>
+                Job
+            </th>
+            <th>
+                Salary
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (EmpModel e in list)
+        {
+            <tr>
+                <td>@e.Id</td>
+                <td>@e.EName</td>
+                <td>@e.Job</td>
+                <td>@e.Salary</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
